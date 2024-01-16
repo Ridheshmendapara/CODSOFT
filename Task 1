@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulHub Seminar</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #009688;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h1, h2, p {
+            text-align: center;
+        }
+        button {
+            background-color: #009688;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SoulHub Seminar</h1>
+        <p>Unlock the Power Within</p>
+    </header>
+
+    <section>
+        <h2>Welcome to SoulHub Seminar</h2>
+        <p>Join us for an enlightening journey to discover and nurture the essence of your soul.</p>
+
+        <h2>Event Details</h2>
+        <p>Date: [Your Seminar Date]</p>
+        <p>Time: [Your Seminar Time]</p>
+        <p>Location: [Your Seminar Location]</p>
+
+        <h2>What to Expect</h2>
+        <p>Explore the depths of your soul through interactive sessions, guided meditations, and insightful discussions.</p>
+
+        <h2>Reserve Your Spot Now</h2>
+        <button>Register Now</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SoulHub Seminar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
