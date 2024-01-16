@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #009688;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #009688;
+            color: #fff;
+        }
+    </style>
+    <title>Your Name - Portfolio</title>
+</head>
+<body>
+
+   
+    <header>
+        <div class="logo">Naruto Uzumaki</div>
+        <p>Web Developer | Creative Thinker</p>
+    </header>
+
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="./Naruto.png" alt="Your Name">
+        <p>Hello! I'm Your Name, a passionate web developer with a focus on creating user-friendly and visually appealing websites. I enjoy turning ideas into reality through coding and problem-solving.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Replace the following with your actual project details -->
+        <div class="project">
+            <h3>Project 1 Task Management App</h3>
+            <p>Develop a task management application to help users organize and track their daily tasks. The app should allow users to create, edit, and delete tasks. Implement features such as task categorization, due dates, and priority levels. Use a clean and intuitive user interface with smooth transitions. Employ HTML, CSS, and JavaScript for the frontend, and consider utilizing a backend technology for data storage and retrieval</p>
+        </div>
+        <div class="project">
+            <h3>Project 2 Fitness Tracker App</h3>
+            <p>Develop a fitness tracker app that allows users to log their workouts, set fitness goals, and track their progress over time. The app should include features like exercise tracking, goal setting, and a visual representation of progress. Use HTML, CSS, and JavaScript for the frontend, and consider integrating a backend for user data storage.</p>
+        </div>
+    </section>
+
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume <a href="./Portfolio.pdf" target="_blank">[Here]</a>.</p>
+    </section>
+
+  
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: naruto@gmail.com</p>
+        <p>Phone: (+91)9562873460</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
